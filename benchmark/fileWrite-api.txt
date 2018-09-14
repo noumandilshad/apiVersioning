@@ -1,0 +1,33 @@
+File Write for Loop 100000000 times, 10 calls
+{ Api:
+   { name: 'Service/Api',
+     href: 'http://localhost:3000/benchmark_api',
+     stats:
+      { sample: [Array],
+        mean: 0.10531413225000001,
+        singleMean: 0.10531413225000001,
+        variance: 0.006542207853584802,
+        deviation: 0.080883915914011,
+        sem: 0.018086193427010563,
+        moe: 0.03785440284273311,
+        rme: 35.94427645557807,
+        p75: 0.1527072485,
+        p95: 0.28941822,
+        p99: 0.289825822,
+        p999: 0.289825822 },
+     errors: {},
+     options:
+      { expectedStatusCode: undefined,
+        maxMean: undefined,
+        maxSingleMean: undefined,
+        method: 'get',
+        concurrencyLevel: 1,
+        start: 2018-07-18T06:48:42.240Z,
+        end: 2018-07-18T06:48:44.347Z },
+     request: { headers: [Object] },
+     response:
+      { header: [Object],
+        statusCode: 200,
+        body: 'Request: 3\nAdded: 1 \nModified: 2,3,4 \nDepricated:  \nFunctions modified, executed: 3',
+        type: '' },
+     hz: 9.49540179114945 } }

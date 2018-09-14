@@ -1,0 +1,34 @@
+For Loop 100000000 times, 10 calls
+        
+{ Api:
+   { name: 'Service/Api',
+     href: 'http://localhost:3000/benchmark_api',
+     stats:
+      { sample: [Array],
+        mean: 0.15380730525,
+        singleMean: 0.15380730525,
+        variance: 0.0000928763854274895,
+        deviation: 0.00963723951282158,
+        sem: 0.0021549522666116008,
+        moe: 0.004510315094018081,
+        rme: 2.9324453001025974,
+        p75: 0.1531999635,
+        p95: 0.19139389114999997,
+        p99: 0.193112933,
+        p999: 0.193112933 },
+     errors: {},
+     options:
+      { expectedStatusCode: undefined,
+        maxMean: undefined,
+        maxSingleMean: undefined,
+        method: 'get',
+        concurrencyLevel: 1,
+        start: 2018-07-18T06:45:30.404Z,
+        end: 2018-07-18T06:45:33.481Z },
+     request: { headers: [Object] },
+     response:
+      { header: [Object],
+        statusCode: 200,
+        body: 'Request: 2\nAdded: 1 \nModified: 2,3,4 \nDepricated:  \nFunctions modified, executed: 2',
+        type: '' },
+     hz: 6.5016417677599225 } }
